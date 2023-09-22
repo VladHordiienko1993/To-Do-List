@@ -1,0 +1,59 @@
+.btnMenu{
+  position: relative;
+  color:rgb(140, 0, 255);
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: 60px;
+  right: -110px;
+  width: 130px;
+  height: 144px;
+  background-color: rgb(148, 117, 174);
+  border-radius: 7px;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+.menu::before
+ {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  left: 2px;
+  border: 7px solid  transparent;
+
+}
+
+.menu::before {
+  top: -16px;
+  border-bottom: 9px solid rgb(148, 117, 174);
+}
+
+.menuList{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+.menuItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  color:rgb(140, 0, 255);
+}
+.menuItem:hover{
+  color: azure;
+}
+.MenuItemText{
+  margin-left: 13%;
+}
+.dropDown{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}

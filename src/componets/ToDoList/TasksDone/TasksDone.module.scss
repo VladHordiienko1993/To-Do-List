@@ -1,0 +1,5 @@
+@import '../../../common/styles/linkTask';
+
+.taskMain{
+  @extend %main;
+}

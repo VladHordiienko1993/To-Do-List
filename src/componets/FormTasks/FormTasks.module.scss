@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 80px;
+  position: relative;
+}
+
+.field {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border-right: none;
+  border-bottom: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  color: azure;
+  font-size: 16px;
+  background-color: rgb(29, 45, 64);
+}
+
+.submitWrapper {
+  display: block;
+  height: 32px;
+  background-color: rgb(29, 45, 64);
+  border: none;
+  margin-right: 10px;
+}
+.submit {
+  color: rgb(140, 0, 255);
+  cursor: pointer;
+}
+
+.ShowPath {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 30px;
+  margin-right: 5px;
+  border: 1.5px solid rgb(140, 0, 255);
+  background-color: rgb(140, 0, 255);
+  border-radius: 7px;
+  color: azure;
+  font-size: 16px;
+}
+
+.errField{
+  position: absolute;
+  bottom: 0;  
+}

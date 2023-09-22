@@ -1,0 +1,29 @@
+// $col: red;
+%main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 410px;
+  height: 40px;
+  margin-top: 0.5px;
+  margin-right: 39px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: rgb(140, 0, 255);
+  border: 1.5px solid #13031f;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+%btnsWrapper{
+display:flex;
+flex-direction:row;
+}
+
+
+
+
+
+
+
